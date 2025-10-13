@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / distribution
+build/
+dist/
+eggs/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+python_env/
+
+# Pyenv / pipenv / poetry
+.python-version
+Pipfile.lock
+poetry.lock
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Caches
+.cache/
+.mypy_cache/
+.python-eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+.ropeproject/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+log/
+*.log
+tensorboard/
+runs/
+tb_logs/
+wandb/
+mlruns/
+
+# Data, datasets and outputs (untracked large files)
+data/
+datasets/
+data_raw/
+data_processed/
+outputs/
+predictions/
+results/
+artifacts/
+models/
+checkpoints/
+
+# Common ML / model files
+*.ckpt
+*.ckpt.*
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.pb
+*.safetensors
+*.bin
+
+# Pickles / serialized objects
+*.pkl
+*.joblib
+*.pickle
+
+# Secrets / credentials
+.env
+*.key
+*.pem
+*.crt
+*.secret
+*.credentials
+
+# Misc
+*.sqlite3
+*.db
