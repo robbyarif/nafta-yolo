@@ -1,0 +1,8 @@
+path: datasets/yolo/ # dataset root dir
+train: train # train 
+val: val # val 
+test: # test images (optional)
+
+# Classes
+names:
+  0: oil spill
